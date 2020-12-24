@@ -1,0 +1,7 @@
+export WORKSPACE_AS_DIR="~/Workspace/AsAdventure/5.Development/"
+export WORKSPACE_AIRTIES_DIR="~/Workspace/AirTies/5.Development/"
+export WORKSPACE_IDA_DIR="~/Workspace/Clients/IDA\ Mediafoundry/"
+
+if [ -f ~/.aliases_clients ]; then
+. ~/.aliases_clients
+fi

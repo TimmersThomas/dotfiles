@@ -1,0 +1,9 @@
+alias aem.start="cd ${WORKSPACE_AS_DIR}/Aem/AEM/aem_64/crx-quickstart/bin && bash ./aem-start"
+alias aem.debug="cd ${WORKSPACE_AS_DIR}/Aem/AEM/aem_64/crx-quickstart/bin && bash ./aem-start-debug"
+alias aem.stop="cd ${WORKSPACE_AS_DIR}/Aem/AEM/aem_64/crx-quickstart/bin && bash ./stop"
+alias aem.logs="tail -f ${WORKSPACE_AS_DIR}/Aem/AEM/aem_64/crx-quickstart/logs/*.log"
+alias as.react="cd ${WORKSPACE_AS_DIR}/React/product-lister-react && yarn serve:all"
+alias as.cotopaxi="cd ${WORKSPACE_AS_DIR}/DesignSystem/cotopaxi && yarn storybook"
+alias as.cloudformation="cd ${WORKSPACE_AS_DIR}/OpsWorks/cloudformation"
+
+alias aws-mfa.admin="aws-mfa --profile as --assume-role arn:aws:iam::855098603944:role/AdministratorRole  --duration 3600"
