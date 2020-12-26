@@ -356,6 +356,9 @@ defaults write com.apple.finder FXInfoPanesExpanded -dict \
 	OpenWith -bool true \
 	Privileges -bool true
 
+# Disable Gatekeeper check for unkown file
+ sudo spctl --master-disable
+
 ###############################################################################
 # Dock, Dashboard, and hot corners                                            #
 ###############################################################################
